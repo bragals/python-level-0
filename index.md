@@ -16,3 +16,25 @@ print(comum)
 ### Output
 `2`
 
+* * *
+
+## Tupla Par
+
+```
+def tupla_par(tupla):
+    
+  '''
+  tupla: uma tupla
+  
+  retorna: nova tupla formada pelos elementos que possuem índices pares
+  '''
+  return tupla[0::2]
+
+tupla  = ('segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo')
+tupla_par(tupla)
+
+```
+
+### Retorna
+`('segunda', 'quarta', 'sexta', 'domingo')`
+
