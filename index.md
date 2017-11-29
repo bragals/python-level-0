@@ -3,7 +3,7 @@
 
 ## Em comum na lista
 
-```
+```py
 # Lista numéricas A e B
 a = [1, 2, 3, 4, 5, 1]
 b = [6, 7, 8, 9, 10, 1, 2, 11, 22]
@@ -20,7 +20,7 @@ print(comum)
 
 ## Tupla Par
 
-```
+```py
 def tupla_par(tupla):
     
   '''
